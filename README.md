@@ -53,7 +53,9 @@ NOTE: **Note: **The exercises in series 7 are a little more complex, worth a try
     - Check if an array includes a certain element
     - Do some math expressions on array elements
     - Remove duplicates from an array
+
 6. DOM
+    - Select by ID
 7. Miscellanious
 8. Asynchronous
 9. Fetch
