@@ -28,6 +28,15 @@
         "cerise",
     ];
 
-    // your code here
+    var run = document.getElementById("run");
+    run.addEventListener("click", removeDuplicates);
+
+    function removeDuplicates() {
+        var uniqueFruits = [...new Set(fruits)]; 
+        console.log(uniqueFruits);
+    }
+
+    // set only allows unique values, and removes all duplicates
+    // the spread operator ... converts it back to an array
 
 })();
