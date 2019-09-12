@@ -11,6 +11,8 @@
 
 (function() {
 
-    // your code here
+    var target = document.getElementsByTagName("p");
+    console.log(target);
+    target[1].innerHTML = "owned";
 
 })();
