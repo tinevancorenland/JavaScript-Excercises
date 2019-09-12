@@ -57,6 +57,7 @@ NOTE: **Note: **The exercises in series 7 are a little more complex, worth a try
 6. DOM
     - Select by ID
     - Select but not by ID 
+    - Select by ClassName
 7. Miscellanious
 8. Asynchronous
 9. Fetch
