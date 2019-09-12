@@ -11,6 +11,7 @@
 
 (function() {
 
-    // your code here
+    var target = document.getElementById("target");
+    target.innerHTML="owned";
 
 })();
