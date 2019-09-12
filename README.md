@@ -52,6 +52,7 @@ NOTE: **Note: **The exercises in series 7 are a little more complex, worth a try
     - Filter array and create a new array with some specific elements from the first array
     - Check if an array includes a certain element
     - Do some math expressions on array elements
+    - Remove duplicates from an array
 6. DOM
 7. Miscellanious
 8. Asynchronous
