@@ -11,6 +11,20 @@
 
 (function() {
 
-    // your code here
+    var image = document.getElementsByTagName("img");
+    var imageOnHover = image[0].dataset.hover;
+    var imageSource = image[0].src;
+
+    console.log(image);
+    console.log(imageOnHover);
+    console.log(imageSource);
+
+    function changeImage() {
+        image[0].src = image[0].dataset.hover;
+        console.log(imageSource)
+    }
+
+    changeImage()
+    
 
 })();
