@@ -11,20 +11,21 @@
 
 (function() {
 
-    var image = document.getElementsByTagName("img");
-    var imageOnHover = image[0].dataset.hover;
-    var imageSource = image[0].src;
+    var imageStart = document.getElementsByTagName("img");
+    var imageOnHoverSource = imageStart[0].dataset.hover;
+    var imageStartSource = imageStart[0].src;
 
-    console.log(image);
-    console.log(imageOnHover);
-    console.log(imageSource);
+    console.log(imageStart);
+    console.log(imageOnHoverSource);
+    console.log(imageStartSource);
 
     function changeImage() {
-        image[0].src = image[0].dataset.hover;
-        console.log(imageSource)
+        imageStart[0].src = imageStart[0].dataset.hover;
+        console.log(imageStartSource)
     }
 
     changeImage()
     
+
 
 })();
