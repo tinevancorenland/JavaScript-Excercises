@@ -18,13 +18,16 @@
     console.log(imageStart);
     console.log(imageOnHoverSource);
     console.log(imageStartSource);
-
+    
     function changeImage() {
         imageStart[0].src = imageStart[0].dataset.hover;
         console.log(imageStartSource)
     }
 
     changeImage()
+
+
+
     
 
 
