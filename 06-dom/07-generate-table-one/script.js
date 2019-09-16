@@ -19,7 +19,6 @@
     for(i=0; i<10; i++) {
         var row = table.insertRow();
         var cell = row.insertCell();
-
     }
 
     console.log(target)
