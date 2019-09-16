@@ -63,6 +63,7 @@ NOTE: **Note: **The exercises in series 7 are a little more complex, worth a try
     - Make image gallery (ongoing)
     - Generate table
     - Generate table with content
+    - check if two input fields have same content
 7. Miscellanious
 8. Asynchronous
 9. Fetch
