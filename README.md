@@ -59,6 +59,9 @@ NOTE: **Note: **The exercises in series 7 are a little more complex, worth a try
     - Select but not by ID 
     - Select by ClassName
     - Acces attribute data, create attribute, remove element by ID
+    - Change image on hover (ongoing)
+    - Make image gallery (ongoing)
+    - Generate table
 7. Miscellanious
 8. Asynchronous
 9. Fetch
