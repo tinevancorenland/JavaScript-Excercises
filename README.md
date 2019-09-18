@@ -59,8 +59,8 @@ NOTE: **Note: **The exercises in series 7 are a little more complex, worth a try
     - Select but not by ID 
     - Select by ClassName
     - Acces attribute data, create attribute, remove element by ID
-    - Change image on hover (ongoing)
-    - Make image gallery (ongoing)
+    - Change image on hover 
+    - Make image gallery 
     - Generate table
     - Generate table with content
     - check if two input fields have same content

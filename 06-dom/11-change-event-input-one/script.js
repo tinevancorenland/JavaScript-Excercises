@@ -11,6 +11,22 @@
 
 (function() {
 
-    // your code here
+    var input = document.getElementById("pass-one");
+
+    var counter = document.getElementById("counter");
+    console.log(counter);
+
+    input.addEventListener("keypress", function() {
+        var inputLength = (input.value.length) +1;
+
+        if(inputLength < 11) {
+            counter.innerHTML = inputLength + "/10";
+        } else {
+            alert("you have reached the limit of 10 charakters");
+        }
+    })
+
+
+
 
 })();
