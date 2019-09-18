@@ -11,24 +11,14 @@
 
 (function() {
 
-    var imageStart = document.getElementsByTagName("img");
-    var imageOnHoverSource = imageStart[0].dataset.hover;
-    var imageStartSource = imageStart[0].src;
+    var imageStart = document.getElementsByTagName("img")[0];
+    var imageOnHoverSource = imageStart.dataset.hover;
+    var imageStartSource = imageStart.src;
 
-    console.log(imageStart);
-    console.log(imageOnHoverSource);
-    console.log(imageStartSource);
+    imageStart.addEventListener("mouseover", changeImage);
     
     function changeImage() {
-        imageStart[0].src = imageStart[0].dataset.hover;
-        console.log("hey");
-        // imageStart[0].src = imageStart[0].dataset.hover;
-        // console.log(imageStartSource)
+        imageStart.src = imageStart.dataset.hover;
     }
-
-
-
-    
-
 
 })();
