@@ -20,20 +20,20 @@
     ];
 
     var next = document.getElementById("next");
-    console.log(next);
 
-    var imgSrc = document.getElementsByTagName("img")[0].src;
+    var img = document.getElementsByTagName("img")[0];
+    console.log(img)
+    var imgSrc = img.getAttribute("src");
     console.log(imgSrc);
 
     next.addEventListener("click", showNextImage);
 
     function showNextImage() {
-        console.log("hey");
         for(i=0; i<gallery.length; i++) {
-            console.log(gallery[0])
-            var imgSrc = gallery[0];
-        }
-
+            if(imgSrc == gallery[i]) {
+                img.src = gallery[i+1];
+            }
+            }
     }
 
 })();
